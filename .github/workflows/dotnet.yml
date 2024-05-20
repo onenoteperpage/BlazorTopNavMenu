@@ -31,5 +31,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: Docker build
-      run: docker build --rm -t blazortopnavmenu .
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag blazortopnavmenu:$(date +%s)
