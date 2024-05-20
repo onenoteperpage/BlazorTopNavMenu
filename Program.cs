@@ -22,7 +22,8 @@ public class Program
             app.UseHsts();
         }
 
-        app.UseHttpsRedirection();
+        // this is commented out to remove support for https
+        //app.UseHttpsRedirection();
 
         app.UseStaticFiles();
         app.UseAntiforgery();
