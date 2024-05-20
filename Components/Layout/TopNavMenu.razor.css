@@ -1,0 +1,8 @@
+/* Example custom styles for the top navigation menu */
+.navbar-brand {
+    font-size: 1.25rem;
+}
+
+.nav-item {
+    font-size: 1rem;
+}
